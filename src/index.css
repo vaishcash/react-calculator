@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input[type="button"] {
+  @apply text-white border-2 border-gray-200 bg-gradient-to-r from-[#3cc357] to-[#5d6800]    rounded-full  w-10 h-10 m-2;
+}
+
+input[type="button"]:hover {
+  @apply text-green-600 border-2 border-green-300 bg-gradient-to-r from-[#aae5c7] to-[#ffffff]    rounded-full  w-10 h-10 m-2;
+}
+
+input.equal {
+  @apply text-white border-2 border-gray-200 bg-gradient-to-r from-[#3cc357] to-[#5d6800]      w-24;
+}
+input.equal:hover {
+  @apply text-green-600 border-2 border-green-300 bg-gradient-to-r from-[#aae5c7] to-[#ffffff]      w-24;
+}
+
+
